@@ -7,7 +7,7 @@ const Item = ({imgsrc = 'not/found'}) => {
     <div className="Item__container">
       <div className="item__box">
         <Link to="/singleItem">
-          <img src={imgsrc} alt="car" className="item__img"></img>
+          <img src={imgsrc} alt="car" className="item__img" />
         </Link>
       </div>
     </div>
