@@ -1,9 +1,12 @@
 import React from 'react';
+import '../css/item.css';
 
-const Item = () => {
+const Item = ({imgsrc = 'not/found'}) => {
   return (
-    <div>
-      <h1>i am item</h1>
+    <div className="Item__container">
+      <div className="item__box">
+        <img src={imgsrc} alt="car" className="item__img"></img>
+      </div>
     </div>
   );
 }
